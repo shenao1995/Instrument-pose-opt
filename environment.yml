@@ -1,0 +1,7 @@
+# Install CUDA PyTorch, nvdiffrast, and remaining packages after activation; see README.md.
+name: instrument-pose-opt
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip

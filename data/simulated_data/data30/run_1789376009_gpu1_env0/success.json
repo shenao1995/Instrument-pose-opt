@@ -1,0 +1,31 @@
+{
+  "episode": 29,
+  "env": 0,
+  "subtasks": {
+    "init": {
+      "success": true,
+      "error": 0.0017947443993762136
+    },
+    "present": {
+      "success": true,
+      "error": 0.271011084318161
+    },
+    "right_ready": {
+      "success": true,
+      "error": 1.2172995411674492e-06
+    },
+    "right_grasp": {
+      "success": true,
+      "error": 2.314150333404541e-05
+    },
+    "left_retreat": {
+      "success": true,
+      "error": 0.04859280586242676
+    },
+    "right_hold": {
+      "success": true,
+      "error": 0.0025175234768539667
+    }
+  },
+  "all_passed": true
+}

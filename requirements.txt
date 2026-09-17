@@ -1,0 +1,15 @@
+# Endoscopic dual-instrument pose optimization (render-and-compare + CMA-ES).
+# Install a CUDA-compatible torch/torchvision pair for your driver first.
+torch>=2.7
+torchvision>=0.22
+numpy>=1.24
+Pillow>=10
+opencv-python>=4.8
+scipy>=1.10
+trimesh>=4.6
+fast-simplification>=0.1.10
+matplotlib>=3.7
+cma>=4.0
+# Differentiable renderer, after torch, with matching CUDA/C++ tools:
+# pip install setuptools wheel ninja
+# pip install git+https://github.com/NVlabs/nvdiffrast.git@253ac4fcea7de5f396371124af597e6cc957bfae --no-build-isolation
